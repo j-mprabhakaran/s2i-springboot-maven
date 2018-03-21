@@ -46,7 +46,7 @@ RUN cd /tomcat/webapps/; rm -rf ROOT docs examples host-manager manager
 # Add configuration files, bashrc and other tweaks
 # COPY ./s2i/bin/ $STI_SCRIPTS_PATH
 
-COPY ./s2i/bin/ /usr/libexec/s2i
+COPY ./.s2i/bin/ /usr/libexec/s2i
 
 RUN chown -R 1001:0 /opt/app-root
 USER 1001
