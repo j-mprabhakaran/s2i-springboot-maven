@@ -1,0 +1,3 @@
+cd /tmp/src/
+mvn package
+cp -Rf /tmp/src/target/*.war $CATALINA_HOME/webapps
