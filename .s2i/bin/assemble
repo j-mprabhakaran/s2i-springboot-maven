@@ -1,3 +1,5 @@
-cd /tmp/src/
-mvn package
-cp -Rf /tmp/src/target/*.war $CATALINA_HOME/webapps
+cp -Rf /tmp/src/ /opt/app-root/
+cd /opt/app-root/
+mvn clean package
+echo $CATALINA_HOME
+cp -Rf /opt/app-root/target/*.war $CATALINA_HOME/webapps
