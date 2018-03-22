@@ -2,4 +2,4 @@ cp -Rf /tmp/src/. /opt/app-root/
 cd /opt/app-root/
 mvn clean package
 echo $CATALINA_HOME
-sudo cp -Rf /opt/app-root/target/*.war /tomcat/webapps/
+cp -Rf /opt/app-root/target/*.war /tomcat/webapps/
