@@ -1,4 +1,4 @@
-cp -Rf /tmp/src/ /opt/app-root/
+cp -Rf /tmp/src/. /opt/app-root/
 cd /opt/app-root/
 mvn clean package
 echo $CATALINA_HOME
