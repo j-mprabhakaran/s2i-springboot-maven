@@ -6,7 +6,7 @@
 FROM openshift/base-centos7
 MAINTAINER Prabhakaran Jayaraman Masani (pjayaramanma@dxc.com)
 
-EXPOSE 8080
+EXPOSE 8080 8085
 
 ENV JAVA_VERSON 1.8.0
 ENV MAVEN_VERSION 3.3.9
